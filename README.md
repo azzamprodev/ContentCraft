@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ContentCraft
 
-## Getting Started
+ContentCraft is a web application designed to simplify content creation for creators by leveraging OpenAI's powerful APIs. With a streamlined and user-friendly interface, ContentCraft helps generate ideas, drafts, or entire articles, empowering creators to focus on creativity rather than mundane tasks.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Content Generation**: Quickly generate content ideas, drafts, or complete articles using OpenAI's API.
+- **User Authentication**: Easy-to-use and secure user authentication powered by Clerk.
+- **Responsive Design**: A modern and responsive UI built with TailwindCSS.
+- **Fast API Integration**: Interact seamlessly with OpenAI's API via Axios for fast and reliable data fetching.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Frontend**: [Next.js](https://nextjs.org/), [React](https://react.dev/)
+- **Styling**: [TailwindCSS](https://tailwindcss.com/)
+- **Backend API**: [OpenAI API](https://platform.openai.com/)
+- **HTTP Client**: [Axios](https://axios-http.com/)
+- **Authentication**: [Clerk](https://clerk.dev/)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
